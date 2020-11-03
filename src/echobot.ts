@@ -389,7 +389,7 @@ function sendMessage(
         messageContents = messageContents.replace("@here", "");
 
     // Determine if we are sending a rich embed or not. (This is decided by if a color is set).
-    if (options && options.richEmbed) {
+    if (false && options && options.richEmbed) {
         // Sending a rich embed.
         let richEmbed = new discord.RichEmbed({
             color: options.richEmbedColor
